@@ -1,11 +1,15 @@
 import './App.css';
 import FuncComponent from './FuncComponent';
 // import {FuncComponent} from './FuncComponent';
+
+//importing class based component
+import ClassComponent from './ClassComponent';
 function App() {
   return (
       <div className='App'>
         <h1>This is my App.js File</h1>
         <FuncComponent />
+        <ClassComponent />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
