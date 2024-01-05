@@ -4,12 +4,15 @@ import FuncComponent from './FuncComponent';
 
 //importing class based component
 import ClassComponent from './ClassComponent';
+//importing jsx file
+import JSX from './JSX';
 function App() {
   return (
       <div className='App'>
         <h1>This is my App.js File</h1>
         <FuncComponent />
         <ClassComponent />
+        <JSX />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
