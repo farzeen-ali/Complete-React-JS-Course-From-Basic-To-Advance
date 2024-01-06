@@ -6,6 +6,8 @@ import FuncComponent from './FuncComponent';
 import ClassComponent from './ClassComponent';
 //importing jsx file
 import JSX from './JSX';
+//importing ClickEvent file
+import ClickEvent from './ClickEvent';
 function App() {
   return (
       <div className='App'>
@@ -13,6 +15,7 @@ function App() {
         <FuncComponent />
         <ClassComponent />
         <JSX />
+        <ClickEvent />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
