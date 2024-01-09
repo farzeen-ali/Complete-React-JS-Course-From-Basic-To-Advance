@@ -9,6 +9,7 @@ import JSX from './JSX';
 //importing ClickEvent file
 import ClickEvent from './ClickEvent';
 import StateInFunctionalComponent from './StateInFunctionalComponent';
+import StateInClassComponent from './StateInClassComponent';
 function App() {
   return (
       <div className='App'>
@@ -18,6 +19,7 @@ function App() {
         <JSX />
         <ClickEvent />
         <StateInFunctionalComponent />
+        <StateInClassComponent />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
