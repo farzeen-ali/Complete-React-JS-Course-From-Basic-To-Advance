@@ -10,6 +10,7 @@ import JSX from './JSX';
 import ClickEvent from './ClickEvent';
 import StateInFunctionalComponent from './StateInFunctionalComponent';
 import StateInClassComponent from './StateInClassComponent';
+import PropsInFunctionalComponent from './PropsInFunctionalComponent';
 function App() {
   return (
       <div className='App'>
@@ -20,6 +21,7 @@ function App() {
         <ClickEvent />
         <StateInFunctionalComponent />
         <StateInClassComponent />
+        <PropsInFunctionalComponent />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
