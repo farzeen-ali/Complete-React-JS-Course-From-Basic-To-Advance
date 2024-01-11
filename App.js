@@ -11,6 +11,7 @@ import ClickEvent from './ClickEvent';
 import StateInFunctionalComponent from './StateInFunctionalComponent';
 import StateInClassComponent from './StateInClassComponent';
 import PropsInFunctionalComponent from './PropsInFunctionalComponent';
+import PropsInClassComponent from './PropsInClassComponent';
 function App() {
   return (
       <div className='App'>
@@ -22,6 +23,7 @@ function App() {
         <StateInFunctionalComponent />
         <StateInClassComponent />
         <PropsInFunctionalComponent />
+        <PropsInClassComponent />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
