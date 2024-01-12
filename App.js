@@ -12,6 +12,7 @@ import StateInFunctionalComponent from './StateInFunctionalComponent';
 import StateInClassComponent from './StateInClassComponent';
 import PropsInFunctionalComponent from './PropsInFunctionalComponent';
 import PropsInClassComponent from './PropsInClassComponent';
+import GetInputFieldValue from './GetInputFieldValue';
 function App() {
   return (
       <div className='App'>
@@ -24,6 +25,7 @@ function App() {
         <StateInClassComponent />
         <PropsInFunctionalComponent />
         <PropsInClassComponent />
+        <GetInputFieldValue />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
