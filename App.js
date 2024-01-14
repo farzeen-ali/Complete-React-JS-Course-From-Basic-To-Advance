@@ -14,6 +14,8 @@ import PropsInFunctionalComponent from './PropsInFunctionalComponent';
 import PropsInClassComponent from './PropsInClassComponent';
 import GetInputFieldValue from './GetInputFieldValue';
 import HideShowToggle from './HideShowToggle';
+import FormHandling from './FormHandling';
+
 function App() {
   return (
       <div className='App'>
@@ -28,6 +30,7 @@ function App() {
         <PropsInClassComponent />
         <GetInputFieldValue />
         <HideShowToggle />
+        <FormHandling />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
