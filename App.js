@@ -15,6 +15,8 @@ import PropsInClassComponent from './PropsInClassComponent';
 import GetInputFieldValue from './GetInputFieldValue';
 import HideShowToggle from './HideShowToggle';
 import FormHandling from './FormHandling';
+import ConditionalRendering from './ConditionalRendering';
+
 
 function App() {
   return (
@@ -31,6 +33,7 @@ function App() {
         <GetInputFieldValue />
         <HideShowToggle />
         <FormHandling />
+        <ConditionalRendering />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
