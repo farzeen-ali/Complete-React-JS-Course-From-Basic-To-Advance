@@ -16,9 +16,13 @@ import GetInputFieldValue from './GetInputFieldValue';
 import HideShowToggle from './HideShowToggle';
 import FormHandling from './FormHandling';
 import ConditionalRendering from './ConditionalRendering';
-
+import New from './New';
+import PassFunctionAsProps from './PassFunctionAsProps';
 
 function App() {
+  function getData(){
+    alert("Hello From App.JS")
+  }
   return (
       <div className='App'>
         <h1>This is my App.js File</h1>
@@ -34,6 +38,8 @@ function App() {
         <HideShowToggle />
         <FormHandling />
         <ConditionalRendering />
+        <PassFunctionAsProps data={getData}/>
+        <New data={getData}/>
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
