@@ -18,6 +18,8 @@ import FormHandling from './FormHandling';
 import ConditionalRendering from './ConditionalRendering';
 import New from './New';
 import PassFunctionAsProps from './PassFunctionAsProps';
+import FormValidation from './FormValidation';
+
 
 function App() {
   function getData(){
@@ -40,6 +42,7 @@ function App() {
         <ConditionalRendering />
         <PassFunctionAsProps data={getData}/>
         <New data={getData}/>
+        <FormValidation />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
