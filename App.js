@@ -19,7 +19,7 @@ import ConditionalRendering from './ConditionalRendering';
 import New from './New';
 import PassFunctionAsProps from './PassFunctionAsProps';
 import FormValidation from './FormValidation';
-
+import Constructor from './Constructor';
 
 function App() {
   function getData(){
