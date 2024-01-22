@@ -20,6 +20,7 @@ import New from './New';
 import PassFunctionAsProps from './PassFunctionAsProps';
 import FormValidation from './FormValidation';
 import Constructor from './Constructor';
+import Render from './Render';
 
 function App() {
   function getData(){
@@ -43,6 +44,8 @@ function App() {
         <PassFunctionAsProps data={getData}/>
         <New data={getData}/>
         <FormValidation />
+        <Constructor />
+        <Render />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
