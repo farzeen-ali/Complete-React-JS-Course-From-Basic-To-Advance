@@ -21,6 +21,8 @@ import PassFunctionAsProps from './PassFunctionAsProps';
 import FormValidation from './FormValidation';
 import Constructor from './Constructor';
 import Render from './Render';
+import ComponentDidMount from './ComponentDidMount';
+
 
 function App() {
   function getData(){
@@ -46,6 +48,7 @@ function App() {
         <FormValidation />
         <Constructor />
         <Render />
+        <ComponentDidMount />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
