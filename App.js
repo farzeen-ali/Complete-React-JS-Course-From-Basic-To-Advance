@@ -22,7 +22,7 @@ import FormValidation from './FormValidation';
 import Constructor from './Constructor';
 import Render from './Render';
 import ComponentDidMount from './ComponentDidMount';
-
+import ComponentDidUpdate from './ComponentDidUpdate';
 
 function App() {
   function getData(){
@@ -49,6 +49,7 @@ function App() {
         <Constructor />
         <Render />
         <ComponentDidMount />
+        <ComponentDidUpdate />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
