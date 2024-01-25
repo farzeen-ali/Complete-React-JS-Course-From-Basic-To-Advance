@@ -9,22 +9,26 @@ class ComponentDidUpdate extends Component {
         }
     }
     componentDidUpdate(prevProps, prevState, snapshot){
-        console.log("Component Did Update " , prevState, this.state.count)
-        // if (prevState.count === this.state.count) {
-        //     alert("Counts Are Equal")
+        console.log("Component Did Update", prevState.count, this.state.count)
+        // if(prevState.count === this.state.count){
+        //     alert("Counts are Same")
         // }
-        // this.setState({count : this.state.count + 1}) ---> error (infinite loop)
-        if (this.state.count < 5 ) {
-            this.setState({count : this.state.count + 1})
+
+        // this.setState({count: this.state.count + 1})
+
+        if(this.state.count < 5){
+            this.setState({count: this.state.count + 1})
         }
+
+
     }
   render() {
     // console.log("Render")
-    return (
+    return ( 
       <>
         <h2>Component Did Update | Life Cycle Method</h2>
         <h3>Hello, {this.state.count} </h3>
-        <button onClick={() => {this.setState({count : 1})}}>Click Me</button>
+        <button onClick={() => {this.setState({count: 1})}}>Click Me</button>
       </>
     )
   }
