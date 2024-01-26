@@ -23,6 +23,7 @@ import Constructor from './Constructor';
 import Render from './Render';
 import ComponentDidMount from './ComponentDidMount';
 import ComponentDidUpdate from './ComponentDidUpdate';
+import ShouldComponentUpdateMethod from './ShouldComponentUpdateMethod';
 
 function App() {
   function getData(){
@@ -50,6 +51,7 @@ function App() {
         <Render />
         <ComponentDidMount />
         <ComponentDidUpdate />
+        <ShouldComponentUpdateMethod />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
