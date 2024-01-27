@@ -24,6 +24,7 @@ import Render from './Render';
 import ComponentDidMount from './ComponentDidMount';
 import ComponentDidUpdate from './ComponentDidUpdate';
 import ShouldComponentUpdateMethod from './ShouldComponentUpdateMethod';
+import GetSnapshotBeforeUpdate from './GetSnapshotBeforeUpdate';
 
 function App() {
   function getData(){
@@ -52,6 +53,7 @@ function App() {
         <ComponentDidMount />
         <ComponentDidUpdate />
         <ShouldComponentUpdateMethod />
+        <GetSnapshotBeforeUpdate />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
