@@ -26,7 +26,7 @@ import ComponentDidUpdate from './ComponentDidUpdate';
 import ShouldComponentUpdateMethod from './ShouldComponentUpdateMethod';
 import GetSnapshotBeforeUpdate from './GetSnapshotBeforeUpdate';
 import ComponentWillUnmount from './ComponentWillUnmount';
-
+import Hooks from './Hooks';
 
 function App() {
   function getData(){
@@ -57,6 +57,7 @@ function App() {
         <ShouldComponentUpdateMethod />
         <GetSnapshotBeforeUpdate />
         <ComponentWillUnmount />
+        <Hooks />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
