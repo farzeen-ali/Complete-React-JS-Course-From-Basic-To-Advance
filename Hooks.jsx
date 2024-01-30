@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 
 function Hooks() {
-    const [name, setName] = useState("Huzaifa");
+    const [name, setName] = useState("Huzaifa")
   return (
     <>
-     <h2>Hooks In React Js</h2> 
+     <h2>Hooks In React</h2> 
      <h3>Hello, {name} </h3>
-     <button onClick={()=> setName("Farzeen")}>Update Name</button>
+     <button onClick={() => setName("Farzeen")}>Update Name</button>
     </>
   )
 }
