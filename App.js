@@ -27,6 +27,7 @@ import ShouldComponentUpdateMethod from './ShouldComponentUpdateMethod';
 import GetSnapshotBeforeUpdate from './GetSnapshotBeforeUpdate';
 import ComponentWillUnmount from './ComponentWillUnmount';
 import Hooks from './Hooks';
+import UseEffectHook from './UseEffectHook';
 
 function App() {
   function getData(){
@@ -58,6 +59,7 @@ function App() {
         <GetSnapshotBeforeUpdate />
         <ComponentWillUnmount />
         <Hooks />
+        <UseEffectHook />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
