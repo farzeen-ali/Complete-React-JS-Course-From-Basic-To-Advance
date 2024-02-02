@@ -28,6 +28,7 @@ import GetSnapshotBeforeUpdate from './GetSnapshotBeforeUpdate';
 import ComponentWillUnmount from './ComponentWillUnmount';
 import Hooks from './Hooks';
 import UseEffectHook from './UseEffectHook';
+import UseEffectWithProps from './UseEffectWithProps';
 
 function App() {
   function getData(){
@@ -60,6 +61,7 @@ function App() {
         <ComponentWillUnmount />
         <Hooks />
         <UseEffectHook />
+        <UseEffectWithProps />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
