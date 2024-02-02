@@ -29,6 +29,7 @@ import ComponentWillUnmount from './ComponentWillUnmount';
 import Hooks from './Hooks';
 import UseEffectHook from './UseEffectHook';
 import UseEffectWithProps from './UseEffectWithProps';
+import UseEffectWithConditions from './UseEffectWithConditions';
 
 function App() {
   function getData(){
@@ -62,6 +63,7 @@ function App() {
         <Hooks />
         <UseEffectHook />
         <UseEffectWithProps />
+        <UseEffectWithConditions />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
