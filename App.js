@@ -30,6 +30,7 @@ import Hooks from './Hooks';
 import UseEffectHook from './UseEffectHook';
 import UseEffectWithProps from './UseEffectWithProps';
 import UseEffectWithConditions from './UseEffectWithConditions';
+import Pure from './Pure';
 
 function App() {
   function getData(){
@@ -64,6 +65,7 @@ function App() {
         <UseEffectHook />
         <UseEffectWithProps />
         <UseEffectWithConditions />
+        <Pure />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
