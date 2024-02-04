@@ -31,6 +31,7 @@ import UseEffectHook from './UseEffectHook';
 import UseEffectWithProps from './UseEffectWithProps';
 import UseEffectWithConditions from './UseEffectWithConditions';
 import Pure from './Pure';
+import UseMemoHook from './UseMemoHook';
 
 function App() {
   function getData(){
@@ -66,6 +67,7 @@ function App() {
         <UseEffectWithProps />
         <UseEffectWithConditions />
         <Pure />
+        <UseMemoHook />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
