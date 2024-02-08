@@ -33,7 +33,8 @@ import UseEffectWithConditions from './UseEffectWithConditions';
 import Pure from './Pure';
 import UseMemoHook from './UseMemoHook';
 import UseCallBackHook from './UseCallBackHook';
-
+import Ref from './Ref';
+import ForwardRef from './ForwardRef';
 
 function App() {
   function getData(){
@@ -71,6 +72,8 @@ function App() {
         <Pure />
         <UseMemoHook />
         <UseCallBackHook />
+        <Ref />
+        <ForwardRef />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
