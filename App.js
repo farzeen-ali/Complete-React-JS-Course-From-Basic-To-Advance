@@ -35,6 +35,7 @@ import UseMemoHook from './UseMemoHook';
 import UseCallBackHook from './UseCallBackHook';
 import Ref from './Ref';
 import ForwardRef from './ForwardRef';
+import ArrayListing from './ArrayListing';
 
 function App() {
   function getData(){
@@ -74,6 +75,7 @@ function App() {
         <UseCallBackHook />
         <Ref />
         <ForwardRef />
+        <ArrayListing />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
