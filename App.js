@@ -36,6 +36,7 @@ import UseCallBackHook from './UseCallBackHook';
 import Ref from './Ref';
 import ForwardRef from './ForwardRef';
 import ArrayListing from './ArrayListing';
+import BootstrapArrayListing from './BootstrapArrayListing';
 
 function App() {
   function getData(){
@@ -76,6 +77,7 @@ function App() {
         <Ref />
         <ForwardRef />
         <ArrayListing />
+        <BootstrapArrayListing />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
