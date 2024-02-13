@@ -38,7 +38,7 @@ import ForwardRef from './ForwardRef';
 import ArrayListing from './ArrayListing';
 import BootstrapArrayListing from './BootstrapArrayListing';
 import NestedListWithNestedArray from './NestedListWithNestedArray';
-
+import Reuse from './Reuse';
 
 function App() {
   function getData(){
@@ -81,6 +81,7 @@ function App() {
         <ArrayListing />
         <BootstrapArrayListing />
         <NestedListWithNestedArray />
+        <Reuse />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
