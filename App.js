@@ -39,6 +39,7 @@ import ArrayListing from './ArrayListing';
 import BootstrapArrayListing from './BootstrapArrayListing';
 import NestedListWithNestedArray from './NestedListWithNestedArray';
 import Reuse from './Reuse';
+import LiftingStateUp from './LiftingStateUp';
 
 function App() {
   function getData(){
@@ -82,6 +83,7 @@ function App() {
         <BootstrapArrayListing />
         <NestedListWithNestedArray />
         <Reuse />
+        <LiftingStateUp />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
