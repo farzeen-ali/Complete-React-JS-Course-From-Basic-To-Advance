@@ -40,6 +40,8 @@ import BootstrapArrayListing from './BootstrapArrayListing';
 import NestedListWithNestedArray from './NestedListWithNestedArray';
 import Reuse from './Reuse';
 import LiftingStateUp from './LiftingStateUp';
+import ControlledComponent from './ControlledComponent';
+import UncontrolComponent from './UncontrolComponent';
 
 function App() {
   function getData(){
@@ -84,6 +86,8 @@ function App() {
         <NestedListWithNestedArray />
         <Reuse />
         <LiftingStateUp />
+        <ControlledComponent />
+        <UncontrolComponent />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
