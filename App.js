@@ -41,7 +41,7 @@ import NestedListWithNestedArray from './NestedListWithNestedArray';
 import Reuse from './Reuse';
 import LiftingStateUp from './LiftingStateUp';
 import ControlledComponent from './ControlledComponent';
-import UncontrolComponent from './UncontrolComponent';
+import UncontrolledComponent from './UncontrolledComponent';
 
 function App() {
   function getData(){
@@ -87,7 +87,7 @@ function App() {
         <Reuse />
         <LiftingStateUp />
         <ControlledComponent />
-        <UncontrolComponent />
+        <UncontrolledComponent />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
