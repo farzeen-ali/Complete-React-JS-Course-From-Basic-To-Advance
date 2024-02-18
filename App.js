@@ -42,6 +42,7 @@ import Reuse from './Reuse';
 import LiftingStateUp from './LiftingStateUp';
 import ControlledComponent from './ControlledComponent';
 import UncontrolledComponent from './UncontrolledComponent';
+import UseReducerHook from './UseReducerHook';
 
 function App() {
   function getData(){
@@ -88,6 +89,7 @@ function App() {
         <LiftingStateUp />
         <ControlledComponent />
         <UncontrolledComponent />
+        <UseReducerHook />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
