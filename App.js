@@ -43,6 +43,8 @@ import LiftingStateUp from './LiftingStateUp';
 import ControlledComponent from './ControlledComponent';
 import UncontrolledComponent from './UncontrolledComponent';
 import UseReducerHook from './UseReducerHook';
+import OnClick from './OnClick';
+import OnMouseOver from './OnMouseOver';
 
 function App() {
   function getData(){
@@ -90,6 +92,8 @@ function App() {
         <ControlledComponent />
         <UncontrolledComponent />
         <UseReducerHook />
+        <OnClick />
+        <OnMouseOver />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
