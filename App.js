@@ -45,6 +45,7 @@ import UncontrolledComponent from './UncontrolledComponent';
 import UseReducerHook from './UseReducerHook';
 import OnClick from './OnClick';
 import OnMouseOver from './OnMouseOver';
+import PreviousState from './PreviousState';
 
 function App() {
   function getData(){
@@ -94,6 +95,7 @@ function App() {
         <UseReducerHook />
         <OnClick />
         <OnMouseOver />
+        <PreviousState />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
