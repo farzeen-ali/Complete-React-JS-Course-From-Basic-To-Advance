@@ -46,6 +46,7 @@ import UseReducerHook from './UseReducerHook';
 import OnClick from './OnClick';
 import OnMouseOver from './OnMouseOver';
 import PreviousState from './PreviousState';
+import StateWithObject from './StateWithObject';
 
 function App() {
   function getData(){
@@ -96,6 +97,7 @@ function App() {
         <OnClick />
         <OnMouseOver />
         <PreviousState />
+        <StateWithObject />
         {/* <FuncComponent />
         <FuncComponent />
         <FuncComponent />
