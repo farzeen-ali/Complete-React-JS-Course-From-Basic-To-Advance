@@ -2,7 +2,7 @@ import './App.css';
 import FuncComponent from './FuncComponent';
 // import {FuncComponent} from './FuncComponent';
 
-//importing class based component
+//importing class based component 
 import ClassComponent from './ClassComponent';
 //importing jsx file
 import JSX from './JSX';
