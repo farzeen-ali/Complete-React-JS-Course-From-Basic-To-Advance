@@ -13,8 +13,8 @@ const PreFilledFormData = () => {
                 setData(response);
                 setFormData({
                     name: response[0].name,
-                    age: response[1].age,
-                    salary: response[2].salary
+                    age: response[0].age,
+                    salary: response[0].salary
                 })
             })
         })
