@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Farzeen",
+      "age": 22,
+      "salary": 80000
+    },
+    {
+      "id": "2",
+      "name": "Harryy",
+      "age": 23,
+      "salary": 20000
+    },
+    {
+      "id": "3",
+      "name": "Tom",
+      "age": 24,
+      "salary": 30000
+    },
+    {
+      "id": "4",
+      "name": "Peter",
+      "age": "200",
+      "salary": "70000"
+    },
+    {
+      "id": "5",
+      "name": "Bilal",
+      "age": 26,
+      "salary": "50000"
+    }
+  ]
+}
