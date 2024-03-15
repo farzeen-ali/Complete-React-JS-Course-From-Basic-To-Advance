@@ -4,7 +4,7 @@ const APICalling = () => {
     const [data, setData] = useState([]);
     useEffect(() => {
         fetch("https://jsonplaceholder.typicode.com/users").then((result) => {
-            result.json().then((response) => {
+            result.json().then((response) => { 
                 // console.log("Response: ", response)
                 setData(response);
             })
