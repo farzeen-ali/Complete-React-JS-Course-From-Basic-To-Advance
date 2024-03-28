@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const APICalling = () => {
     const [data, setData] = useState([]);
-    useEffect(() => {
+    useEffect(() => { 
         fetch("https://jsonplaceholder.typicode.com/users").then((result) => {
             result.json().then((response) => { 
                 // console.log("Response: ", response)
