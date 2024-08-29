@@ -14,7 +14,7 @@ const PreviousState = () => {
         //     return randomValue;
         // })
 
-        //Example 2
+        //Example 2 
         for(let i = 0; i < 5; i++){
             // setCount(count + 1)
             setCount((prev) => {
